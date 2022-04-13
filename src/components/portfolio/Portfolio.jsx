@@ -32,15 +32,15 @@ const Portfolio = () => {
     {
       id:4,
       img: img4,
-      githubLink: "https://github.com/ShabnamRashidova/texnomart-clone",
-      demoLink: "",
+      githubLink: "https://github.com/ShabnamRashidova/texnomart-clone-react/",
+      demoLink: "https://react-app-texnomart-clone.netlify.app/",
       info: "REACT/BOOTSTRAP",
     },
     {
       id:5,
       img: img5,
-      githubLink: "https://github.com/ShabnamRashidova/react-shopping-app",
-      demoLink: "",
+      githubLink: "https://github.com/ShabnamRashidova/react-app",
+      demoLink: "https://react-app-e-commerce.netlify.app/",
       info: "REACT/BOOTSTRAP",
     },
     {
@@ -58,7 +58,7 @@ const Portfolio = () => {
         <div className="portfolio-container">
           <div className="row">
             {data.map((item) => (
-              <>
+           
                 <div className="col-xl-4 col-md-6" key={item.id}>
                   <div className="portfolio-item text-center">
                     <div className="portfolio-item-img">
@@ -81,7 +81,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </>
+             
             ))}
           </div>
         </div>
